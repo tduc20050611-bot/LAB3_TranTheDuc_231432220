@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Môn học** | Hệ thống Nhúng – Lab3 |
+| **Môn học** | Hệ thống Nhúng–LAB3 |
 | **Sinh viên** | Trần Thế Đức |
 | **MSV** | 231432220 |
 | **Lớp** | Kỹ thuật Điện tử và Tin học công nghiệp 2 -k64 |
