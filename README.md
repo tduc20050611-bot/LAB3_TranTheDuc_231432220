@@ -9,9 +9,9 @@
 
 ESP32 đọc nhiệt độ và độ ẩm không khí từ **DHT22**, hiển thị qua **Serial** và gửi dữ liệu qua Wi-Fi đến **MQTT Broker** để hiển thị trên **Web**. Máy phun sương tự động chạy khi độ ẩm dưới 40%. Hai nút trên Web điều khiển máy bơm và quạt thủ công. Chương trình dùng **FreeRTOS** với 3 task trên 2 lõi.
 
-🔗 **Mô phỏng Wokwi:** https://wokwi.com/projects/480656607152456705
+ **Mô phỏng Wokwi:** https://wokwi.com/projects/480656607152456705
 
-## 📁 Nội dung repository
+##  Nội dung repository
 
 | Đường dẫn | Mô tả |
 |---|---|
@@ -21,7 +21,7 @@ ESP32 đọc nhiệt độ và độ ẩm không khí từ **DHT22**, hiển th�
 | [report/\[LAB3_fnTD\] reportNhung_FreeRTOS.docx](report/%5BLAB3_fnTD%5D%20reportNhung_FreeRTOS.docx) | Báo cáo (Word) |
 | [wokwi_link.txt](wokwi_link.txt) | Link mô phỏng Wokwi |
 
-## 🔌 Sơ đồ kết nối
+##  Sơ đồ kết nối
 
 | Thiết bị | Chân ESP32 | Chức năng |
 |---|---|---|
@@ -32,7 +32,7 @@ ESP32 đọc nhiệt độ và độ ẩm không khí từ **DHT22**, hiển th�
 | LED xanh lá qua 220 Ω | GPIO25 | Quạt |
 | LED xanh dương qua 220 Ω | GPIO33 | Phun sương PWM |
 
-## ⚙️ Kiến trúc FreeRTOS
+##  Kiến trúc FreeRTOS
 
 ```mermaid
 flowchart TD
@@ -58,7 +58,7 @@ flowchart TD
 
 **Điều khiển thủ công:** Hai nút Web bật hoặc tắt máy bơm và quạt độc lập. Máy phun sương chạy theo thuật toán độ ẩm, nghỉ 5 giây giữa các đợt nếu vẫn dưới 40%.
 
-## 📡 MQTT
+##  MQTT
 
 Broker `broker.hivemq.com`. ESP32 dùng TCP cổng `1883`, Web dùng `wss://broker.hivemq.com:8884/mqtt`.
 
