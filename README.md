@@ -1,4 +1,4 @@
-# [LAB3] Hệ thống giám sát môi trường vườn trồng – ESP32 + FreeRTOS
+# Hệ thống giám sát môi trường vườn trồng – ESP32 + FreeRTOS
 
 | | |
 |---|---|
