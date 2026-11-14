@@ -5,7 +5,7 @@
 | **Môn học** | Hệ thống Nhúng – Lab3 |
 | **Sinh viên** | Trần Thế Đức |
 | **MSV** | 231432220 |
-| **Lớp** | — |
+| **Lớp** | Kỹ thuật Điện tử và Tin học công nghiệp 2 -k64 |
 
 ESP32 đọc nhiệt độ và độ ẩm không khí từ **DHT22**, hiển thị qua **Serial** và gửi dữ liệu qua Wi-Fi đến **MQTT Broker** để hiển thị trên **Web**. Máy phun sương tự động chạy khi độ ẩm dưới 40%. Hai nút trên Web điều khiển máy bơm và quạt thủ công. Chương trình dùng **FreeRTOS** với 3 task trên 2 lõi.
 
