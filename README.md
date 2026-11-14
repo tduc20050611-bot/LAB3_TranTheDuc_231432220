@@ -70,11 +70,3 @@ Broker `broker.hivemq.com`. ESP32 dùng TCP cổng `1883`, Web dùng `wss://brok
 | `lab3/de2/vuon-dht22-5c8f14/cmd/pump` | Web → ESP32 | 1 bật, 0 tắt |
 | `lab3/de2/vuon-dht22-5c8f14/cmd/fan` | Web → ESP32 | 1 bật, 0 tắt |
 
-## ▶️ Cách chạy
-
-1. Mở [project Wokwi](https://wokwi.com/projects/480656607152456705) và bấm **Start Simulation**. Theo dõi kết nối MQTT trên Serial Monitor ở 115200 baud.
-2. Mở `web/index.html` bằng trình duyệt có Internet để xem số đo và biểu đồ theo thời gian thực.
-3. Bấm vào DHT22 trong Wokwi để đổi nhiệt độ hoặc độ ẩm. Quan sát LED xanh dương, Serial và mức PWM trên Web.
-4. Dùng hai nút **Bật/Tắt** trên Web để điều khiển bơm và quạt thủ công.
-
-**Thư viện Arduino:** PubSubClient, DHT sensor library, Adafruit Unified Sensor. ESP32 Arduino core cung cấp Wi-Fi, FreeRTOS và LEDC.
